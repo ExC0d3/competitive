@@ -7,12 +7,11 @@ Topics
 
 3. Bentley Ottmann algorithm to list all intersection points of n line segments in O((n + I) * logn) :
 	- Suggested Reading :
-		- http://softsurfer.com/Archive/algorithm_0108/algorithm_0108.htm
+		- http://softsurfer.com/Archive/algorithm_0108/algorithm_0108.html
 
-4. Rotating Calipers Technique.
-
+4. Rotating Calipers Technique :
 	- Suggested Reading : 
-		-http://cgm.cs.mcgill.ca/~orm/rotcal.html
+		- http://cgm.cs.mcgill.ca/~orm/rotcal.html
 
 	- Problems :
   		- Refer Article for a list of problems which can be solved using Rotating Calipers technique.
@@ -27,7 +26,7 @@ Topics
 		- http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=lineSweep
 
 	- Problems :
-		-Follow the Topcoder tutorial for list of problems.
+		- Follow the Topcoder tutorial for list of problems.
 
 6. Area of Union of Circles.
 

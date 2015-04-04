@@ -36,7 +36,7 @@ vector<ii> adj[MAX+1];
 bool completed[MAX+1];
 
 struct MinHeap {
-    bool operator()(int a, int b) {
+    bool operator() (int a, int b) {
         return depths[a] > depths[b];
     }
 };

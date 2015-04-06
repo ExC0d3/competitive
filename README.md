@@ -1,3 +1,5 @@
+[![Build Status](https://magnum.travis-ci.com/manojpandey/Algo-DS-Implementations.svg?token=LXKjKWYybkkJzbouTmsz&branch=master)](https://magnum.travis-ci.com/manojpandey/Algo-DS-Implementations)
+
 Implementations of various Algorithms/DS
 ====================
 

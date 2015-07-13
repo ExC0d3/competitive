@@ -2,14 +2,14 @@ Topics
 =============
 
 1. Maximum flow using Ford Fulkerson Method. 
-	-Suggested Reading:
+	- Suggested Reading:
 		- http://www.topcoder.com/tc?module=Static&d1=tutorials&d2=maxFlow 
-	- Problems 
+	- Problems :
 		-TAXI, POTHOLE, IM, QUEST4, MUDDY, EN, CABLETV, STEAD, NETADMIN, COCONUTS, OPTM on SPOJ. 
 
 
 2. Maximum flow using Dinics Algorithm. 
-	-Problems ­ PROFIT on spoj. 
+	- Problems ­ PROFIT on spoj. 
 
 
 3. Minimum Cost Maximum Flow. 

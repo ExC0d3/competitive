@@ -1,4 +1,7 @@
-[![Build Status](https://magnum.travis-ci.com/manojpandey/Algo-DS-Implementations.svg?token=LXKjKWYybkkJzbouTmsz&branch=master)](https://magnum.travis-ci.com/manojpandey/Algo-DS-Implementations)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)]
+(https://github.com/manojpandey/competitive/blob/master/LICENSE)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square)](https://github.com/dwyl/esta/issues)
+![Implementation](https://img.shields.io/badge/implementation-C%2C%20C%2B%2B%2C%20Python%2C%20Java-yellow.svg?style=flat-square)
 
 Implementations of various Algorithms/DS
 ====================

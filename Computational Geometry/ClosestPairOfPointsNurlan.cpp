@@ -53,16 +53,20 @@ void closest_pair(point p[], int n) {
 	closest_pair(p + m, n - m); //right
 
 	int il = 0, ir = m, i = 0;
+	
 	while (il < m && ir < n) { // merging two halves
 		if (p[il].y < p[ir].y) aux[i ++] = p[il ++];
 		else aux[i ++] = p[ir ++];
 	}
+	
 	while (il < m)
 		aux[i ++] = p[il ++];
+	
 	while (ir < n)
 		aux[i ++] = p[ir ++];
 
 	vn = 0;
+	
 	for (int j = 0 ; j < n ; j ++) { // copying back into p
 		p[j] = aux[j];
 		if (fabs(p[j].x - x) < ans) // looking at the strip of width 2*ans
@@ -91,4 +95,3 @@ int main() {
 	printf("%d %d %lf\n", min(a, b), max(a, b), ans);
 	return 0;
 }
-

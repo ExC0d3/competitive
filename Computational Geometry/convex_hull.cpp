@@ -1,27 +1,33 @@
 #include <cmath>
 #include <vector>
 #include <algorithm>
+
 using namespace std;
 const double eps = 1e-9;
+
 inline int diff(double lhs, double rhs) {
 	if (lhs - eps < rhs && rhs < lhs + eps) return 0;
 	return (lhs < rhs) ? -1 : 1;
 }
+
 struct Point {
 	double x, y;
 	Point() {}
 	Point(double x_, double y_): x(x_), y(y_) {}
 
 };
+
 inline int ccw(const Point& a, const Point& b, const Point& c) {
 	return diff(a.x * b.y + b.x * c.y + c.x * a.y
 	            - a.y * b.x - b.y * c.x - c.y * a.x, 0);
 }
+
 inline double dist2(const Point &a, const Point &b) {
 	double dx = a.x - b.x;
 	double dy = a.y - b.y;
 	return dx * dx + dy * dy;
 }
+
 struct PointSorter {
 	Point origin;
 	PointSorter(const vector<Point>& points) {
@@ -42,6 +48,7 @@ struct PointSorter {
 		return det < 0;
 	}
 };
+
 vector<Point> convex_hull(vector<Point> points) {
 	if (points.size() <= 3)
 		return points;

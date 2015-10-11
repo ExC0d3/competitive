@@ -188,3 +188,4 @@ of a polynomial ]
 - Suggested Reading 
 	- Herbert Wilf's generating functionology 
 	- Robert Sedgewick and Flajoulet's Combinatorial analysis 
+

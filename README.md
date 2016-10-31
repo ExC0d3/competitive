@@ -13,4 +13,4 @@ Right now, all the topics are being added from this [Google Doc file](https://do
 How to Contribute
 ====================
 
-Open a new issue to start a new discussion. It will be helpful if new ideas are also presented to handle this repository. Thanks :)
+Open a new issue to start a new discussion. It will be helpful if new ideas are also presented to handle this repository. Thanks
